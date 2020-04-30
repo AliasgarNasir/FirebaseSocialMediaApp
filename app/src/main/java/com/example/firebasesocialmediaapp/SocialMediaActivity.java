@@ -113,6 +113,7 @@ public class SocialMediaActivity extends AppCompatActivity implements AdapterVie
                 break;
             case R.id.viewPostsItem:
                 Intent intent = new Intent(this,ViewPostsActivity.class);
+                startActivity(intent);
                 break;
         }
 
